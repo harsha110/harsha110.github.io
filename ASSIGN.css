@@ -284,25 +284,22 @@ a.jap{
 
 #foot{
 	background-color: white;
-	display: flex;
-    flex-basis: 100%;
-    justify-content: space-between;
     height:100px;
+    display: flex;
 }
 
-#copyright{
-	flex:1;
-	font-size: 20px;
-  font-family: Amiko;
-  font-weight: 10px;
-  color:black;
-  margin: auto;
-}
+
 
 #social_links{
-	flex:2;
-	margin-left: 400px;
-	margin-top:40px; 
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#social_links li{
+	list-style: none;
+	
 }
 
 @media(min-width: 700px){
@@ -330,6 +327,24 @@ a.jap{
     z-index: 0;
     width:100%;
 }
+ a.berd{
+ 	margin-top:50px;
+ }
+ a.hubb{
+ 	margin-top:50px;
+ }
+ a.neb{
+ 	margin-top:50px;
+ }
+ a.sey{
+ 	margin-top:50px;
+ }
+ a.pic_day{
+ 	margin-top:50px;
+ }
+ a.jap{
+ 	margin-top:50px;
+ }
 	
 }
 
