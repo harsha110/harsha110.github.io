@@ -38,7 +38,7 @@ body{
     flex:1;
 }
 
-#link{
+.link{
 	margin:auto;
 	color: black;
 	font-size: 15px;
@@ -46,14 +46,14 @@ body{
 	text-decoration: none; 
 }
 
-#g_s{
+.g_s{
 	height:45px;
 	width:50px;
 	margin-top: 30px;
 	margin-right: 10px;
 }
 
-#ast{
+.ast{
 	font-size:24px;
 	font-family: Alegreya;
 	text-align:center;
@@ -212,12 +212,11 @@ a.jap{
 }
 
 
-#canis{
+.canis{
 	text-align: center;
 	padding: 3px;
 	font-size: 15px;
   font-family: Amiko;
-  font-weight: 10px;
 }
 
 
@@ -225,7 +224,6 @@ a.jap{
 #points_coll{
 	 font-size: 15px;
   font-family: Amiko;
-  font-weight: 10px;
   color:lightgrey;
 }
 
@@ -234,12 +232,10 @@ a.jap{
   flex-basis:20%;
   background-color: white;
 }
-}
 
 #points_coll1{
 	 font-size: 15px;
   font-family: Amiko;
-  font-weight: 10px;
   color:black;
 }
 
@@ -253,7 +249,6 @@ a.jap{
 	text-align: center;
 	font-size: 25px;
   font-family: Amiko;
-  font-weight: 10px;
 }
 
 #facts_solar_system{
@@ -263,7 +258,6 @@ a.jap{
 	background-size: cover;
 	font-size: 25px;
   font-family: Amiko;
-  font-weight: 10px;
 }
 
 #brilliant_astronomers{
@@ -276,7 +270,6 @@ a.jap{
 #points{
 	font-size: 20px;
   font-family: Amiko;
-  font-weight: 10px;
   color:white;
 }
 
