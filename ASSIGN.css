@@ -1,0 +1,371 @@
+body{
+	background-color: lightgrey;
+}
+
+#head{
+   display: flex;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+
+#blank{
+	height:180px;
+	background-color: lightgrey;
+}
+
+#late{
+	text-align: center;
+}
+
+#Header_section_1{
+    background-color: white;
+    height: 150px;
+    flex:1;
+}
+
+#Header_section_2{
+    background-color: white;
+    height: 150px;
+    flex-flow: wrap;
+    display: flex;
+    flex:3;
+}
+
+#Header_section_3{
+    background-color: white;
+    height: 150px;
+    flex:1;
+}
+
+#link{
+	margin:auto;
+	color: black;
+	font-size: 15px;
+	font-family:'Aclonica';
+	text-decoration: none; 
+}
+
+#g_s{
+	height:45px;
+	width:50px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#ast{
+	font-size:24px;
+	font-family: Alegreya;
+	text-align:center;
+	padding-top:20px; 
+}
+
+#latest_news{
+	background-color: white;
+    height: 350px;
+}
+
+#bernard_star{
+	background-image: url(s2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+
+#hubble_star{
+	background-image: url(s3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+
+#nebula{
+	background-image: url(s4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+
+a.berd{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+a.hubb{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+a.neb{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+#latest_news2{
+	background-color: white;
+    height: 350px;
+ 
+}
+
+#seyfert{
+	background-image: url(s1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+
+#pic{
+	background-image: url(s5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+
+a.sey{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+a.pic_day{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+#japan{
+	background-image: url(s6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-basis:33%;
+	display: flex;
+}
+a.jap{
+	font-size: 20px;
+	font-family: Amiko;
+	text-decoration: none;
+    margin: auto; 
+    color:white;
+    padding: 2px;
+}
+
+#main_body{
+
+
+}
+
+#our{
+	text-align:center;
+}
+
+#galaxy_near_us{
+  
+  flex-basis:20%;
+	background-image: url(s7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#galaxy_near_us_canis{
+  
+  flex-basis:20%;
+	background-color:white; 
+}
+
+#solar_system{
+ 
+  flex-basis: 58%;
+  background-color: white;
+  position: relative;
+}
+
+#video{
+    position: relative;
+    z-index: 0;
+
+}
+
+#solar_text{
+  position: absolute;
+  top:110px;
+  left: 9px;
+  right:9px;
+  z-index:1;
+  color: white;
+  font-size: 20px;
+  font-family: Amiko;
+}
+
+
+#canis{
+	text-align: center;
+	padding: 3px;
+	font-size: 15px;
+  font-family: Amiko;
+  font-weight: 10px;
+}
+
+
+
+#points_coll{
+	 font-size: 15px;
+  font-family: Amiko;
+  font-weight: 10px;
+  color:lightgrey;
+}
+
+#top_uni{
+  
+  flex-basis:20%;
+  background-color: white;
+}
+}
+
+#points_coll1{
+	 font-size: 15px;
+  font-family: Amiko;
+  font-weight: 10px;
+  color:black;
+}
+
+#institutions{
+
+   flex-basis:20%;
+   background-color: white;
+}
+
+#facts{
+	text-align: center;
+	font-size: 25px;
+  font-family: Amiko;
+  font-weight: 10px;
+}
+
+#facts_solar_system{
+	flex-basis: 58%;
+	background-color: white;
+	font-size: 25px;
+  font-family: Amiko;
+  font-weight: 10px;
+}
+
+#brilliant_astronomers{
+	flex-basis:20%;
+	background-image: url(s7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#points{
+	font-size: 20px;
+  font-family: Amiko;
+  font-weight: 10px;
+  color:black;
+}
+
+#foot{
+	background-color: white;
+	display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    height:100px;
+}
+
+#copyright{
+	flex:1;
+	font-size: 20px;
+  font-family: Amiko;
+  font-weight: 10px;
+  color:black;
+  margin: auto;
+}
+
+#social_links{
+	flex:2;
+	margin-left: 400px;
+	margin-top:40px; 
+}
+
+@media and (min-width: 700px){
+	
+}
+@media and (max-width: 899px){
+#ast{
+	font-size: 14px;
+}
+#solar_text{
+  position: absolute;
+  top:70px;
+  left: 9px;
+  right:9px;
+  z-index:1;
+  color: white;
+  font-size: 15px;
+  font-family: Amiko;
+}
+}
+
+@media(max-width: 999px){
+	#video{
+    position: relative;
+    z-index: 0;
+    width:100%;
+}
+	
+}
+
+@media(min-width: 1000px){ 
+#main_body{
+	display : flex;
+	justify-content: space-between;
+	flex-direction: row;
+    flex-basis:100%;
+   }
+   #latest_news{
+	display : flex;
+	justify-content: space-between;
+	flex-direction: row;
+    flex-basis:100%;
+   }
+
+   #latest_news2{
+	display : flex;
+	justify-content: space-between;
+	flex-direction: row;
+    flex-basis:100%;
+   }
+   #main_body_2{
+	display : flex;
+	justify-content: space-between;
+	flex-direction:row;
+    flex-basis:100%;
+   }
+ }  
+
+ #social{
+ 	width:30px;
+ 	height: 30px;
+ }
