@@ -181,7 +181,7 @@ a.jap{
 
 #galaxy_near_us{
   
-  flex-basis:20%;
+  flex-basis:30%;
 	background-image: url(s7.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -189,23 +189,23 @@ a.jap{
 
 #galaxy_near_us_canis{
   
-  flex-basis:20%;
-	background-color:white; 
+  flex-basis:30%;
+	background-image:url(s9.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #solar_system{
  
-  flex-basis: 58%;
-  background-color: white;
+  flex-basis: 40%;
+  background-image: url(s10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
 #solar_text{
-  position: absolute;
-  top:60px;
-  left: 9px;
-  right:9px;
-  z-index:1;
+  padding: 5px;	
   color: white;
   font-size: 20px;
   font-family: Amiko;
@@ -217,7 +217,7 @@ a.jap{
 	padding: 3px;
 	font-size: 15px;
   font-family: Amiko;
-  color:black;
+  color:white;
   font-weight: bolder;
 }
 
@@ -277,27 +277,11 @@ a.jap{
 
 
 
-@media(max-width: 899px){
+
+@media(max-width: 700px){
 #ast{
 	font-size: 14px;
-}
-#solar_text{
-  position: absolute;
-  left: 9px;
-  right:9px;
-  z-index:1;
-  color: white;
-  font-size: 15px;
-  font-family: Amiko;
-}
-}
-
-@media(max-width: 1164px){
-	#video{
-    position: relative;
-    z-index: 0;
-    width:100%;
-}
+    }
 
   #main_body{
 	flex-direction: column;
