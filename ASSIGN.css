@@ -172,7 +172,7 @@ a.jap{
 
 #main_body{
 
-
+  display: flex;
 }
 
 #our{
@@ -202,7 +202,7 @@ a.jap{
 
 #solar_text{
   position: absolute;
-  top:110px;
+  top:0px;
   left: 9px;
   right:9px;
   z-index:1;
@@ -280,37 +280,14 @@ a.jap{
   color:white;
 }
 
-#foot{
-	background-color: white;
-    height:100px;
-    display: flex;
-}
 
 
-
-#social_links{
-	margin: auto;
-}
-
-#social_links li{
-	list-style: none;
-	display: inline;
-	
-}
-
-@media(max-width: 700px){
-	#social_links{
-		display: flex;
-		flex-direction: column;
-	}
-}
 @media(max-width: 899px){
 #ast{
 	font-size: 14px;
 }
 #solar_text{
   position: absolute;
-  top:70px;
   left: 9px;
   right:9px;
   z-index:1;
@@ -320,40 +297,22 @@ a.jap{
 }
 }
 
-@media(max-width: 999px){
+@media(max-width: 1164px){
 	#video{
     position: relative;
     z-index: 0;
     width:100%;
 }
- a.berd{
- 	margin-top:50px;
- }
- a.hubb{
- 	margin-top:50px;
- }
- a.neb{
- 	margin-top:50px;
- }
- a.sey{
- 	margin-top:50px;
- }
- a.pic_day{
- 	margin-top:50px;
- }
- a.jap{
- 	margin-top:50px;
- }
+
+  #main_body{
+	flex-direction: column;
+    flex-basis:100%;
+   }
 	
 }
 
-@media(min-width: 1000px){ 
-#main_body{
-	display : flex;
-	justify-content: space-between;
-	flex-direction: row;
-    flex-basis:100%;
-   }
+@media(min-width: 800px){ 
+
    #latest_news{
 	display : flex;
 	justify-content: space-between;
@@ -373,9 +332,28 @@ a.jap{
 	flex-direction:row;
     flex-basis:100%;
    }
+
  }  
+
+  @media(max-width: 700px){
+	#social_links{
+		display: flex;
+		flex-direction: column;
+	}
+}
 
  #social{
  	width:30px;
  	height: 30px;
  }
+
+ #social_links{
+	margin: auto;
+}
+
+#social_links li{
+	list-style: none;
+	display: inline;
+	
+}
+
